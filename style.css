@@ -1,2 +1,5 @@
 @import url(./vendor/normalize.css);
 
+.page {
+    background-color: #2A2C2F;
+}
