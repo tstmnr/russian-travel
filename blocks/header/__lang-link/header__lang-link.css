@@ -1,0 +1,16 @@
+.header__lang-link {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    text-decoration: none;
+    transition: opacity .3s ease;
+  }
+  
+  .header__lang-link:hover {
+    opacity: .5;
+  }
+  
+  .header__lang-link_active {
+    text-decoration: underline;
+  }
