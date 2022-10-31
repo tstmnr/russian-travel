@@ -1,8 +1,8 @@
 .header__item {
-    list-style: none;
-    margin-right: 18px;
-  }
-  
-  .header__item:last-child {
-    margin-right: 0px;
-  }
+  list-style: none;
+  margin-right: 18px;
+}
+
+.header__item:last-child {
+  margin-right: 0px;
+}

@@ -1,4 +1,16 @@
 .page__lead {
-  margin: 56px auto 0;
+  margin: 0 auto;
   padding: 0 48px;
+}
+
+@media screen and (max-width: 768px) {
+  .page__lead {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .page__lead {
+    padding: 0 16px;
+  }
 }

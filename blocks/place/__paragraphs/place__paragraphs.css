@@ -1,5 +1,4 @@
 .place__paragraphs {
     grid-area: paragraphs;
-    max-width: 484px;
-    min-width: 288px;
+    width: 100%;
   }

@@ -7,3 +7,22 @@
     line-height: 100px;
     text-align: center;
   }
+
+  @media screen and (max-width: 767px) {
+    .lead__title {
+      max-width: 500px;
+      font-weight: 900;
+      font-size: 60px;
+      line-height: 64px;
+      outline: red 1px solid;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .lead__title {
+      max-width: 288px;
+      font-weight: 900;
+      font-size: 40px;
+      line-height: 44px;
+    }
+  }

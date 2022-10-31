@@ -6,3 +6,21 @@
     object-fit: cover;
     object-position: center;
   }
+
+  @media screen and (max-width: 1024px) {
+    .lead__image {
+      margin: 56px auto 0;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .page__lead {
+      padding: 0;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .page__lead {
+      padding: 0;
+    }
+  }
