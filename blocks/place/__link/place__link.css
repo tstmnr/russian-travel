@@ -1,14 +1,16 @@
 .place__link {
-    color: #fff;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 22px;
-    transition: opacity .3s ease;
-    text-decoration: none;
-    border-bottom: 1px solid #fff;
-    padding-bottom: .5px;
-  }
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  transition: opacity .3s ease;
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
+  padding-bottom: .8px;
+}
 
-  .place__link:hover {
-    opacity: .5;
-  }
+.place__link:hover {
+  opacity: .5;
+}
+
+

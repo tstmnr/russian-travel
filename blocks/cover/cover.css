@@ -1,21 +1,21 @@
 .cover {
-    font-family: "Inter", Arial, san-serif;
-    max-width: 1184px;
-    position: relative;
+  font-family: "Inter", Arial, san-serif;
+  max-width: 1184px;
+  position: relative;
 }
 
 .cover::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background-color: #2A2C2F;
-    opacity: .3;
-    transition: opacity .4s ease;
-  }
-  
-  .cover:hover::before {
-    opacity: .8;
-  }
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #2A2C2F;
+  opacity: .3;
+  transition: opacity .4s ease;
+}
+
+.cover:hover::before {
+  opacity: .8;
+}

@@ -1,4 +1,13 @@
 .place__paragraphs {
-    grid-area: paragraphs;
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .place__paragraphs {
+    box-sizing: border-box;
     width: 100%;
+    font-size: 32px;
+    line-height: 35px;
+    padding: 0 16px;
   }
+}
