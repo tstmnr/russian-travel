@@ -1,7 +1,17 @@
 .footer__item {
-    list-style: none;
+  list-style: none;
+}
+
+.footer__item:not(:last-child) {
+  margin-right: 18px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer__item {
+    margin: 0 0 32px;
   }
-  
-  .footer__item:not(:last-child) {
-    margin-right: 18px;
+
+  .footer__item:last-child {
+    margin: 0 ;
   }
+}

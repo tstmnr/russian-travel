@@ -1,26 +1,20 @@
 .lead__image {
-    width: 100%;
-    max-height: 615px;
-    min-height: 200px;
-    margin: 64px auto 0;
-    object-fit: cover;
-    object-position: center;
-  }
+  width: 100%;
+  max-height: 615px;
+  min-height: 200px;
+  margin: 64px auto 0;
+  object-fit: cover;
+  object-position: center;
+}
 
-  @media screen and (max-width: 1024px) {
-    .lead__image {
-      margin: 56px auto 0;
-    }
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .lead__image {
+    margin: 56px auto 0;
   }
+}
 
-  @media screen and (max-width: 768px) {
-    .page__lead {
-      padding: 0;
-    }
+@media screen and (max-width: 767px) {
+  .lead__image {
+    margin: 40px auto 0;
   }
-
-  @media screen and (max-width: 320px) {
-    .page__lead {
-      padding: 0;
-    }
-  }
+}

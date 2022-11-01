@@ -4,10 +4,11 @@
 /*HEADER*/
 @import url("../blocks/header/header.css");
 @import url("../blocks/page/__header/page__header.css");
-@import url("../blocks/logo/logo.css");
+@import url("../blocks/header/__logo/header__logo.css");
 @import url("../blocks/header/__items/header__items.css");
 @import url("../blocks/header/__item/header__item.css");
 @import url("../blocks/header/__lang-link/header__lang-link.css");
+@import url("../blocks/header/__lang-link/_active/header__lang-link_active.css");
 /*CONTENT*/
 @import url("../blocks/content/content.css");
 /*LEAD*/
@@ -28,7 +29,9 @@
 /*PHOTO-GRID*/
 @import url("../blocks/photo-grid/photo-grid.css");
 @import url("../blocks/page/__photo-grid/page__photo-grid.css");
+@import url("../blocks/photo-grid/__items/photo-grid__items.css");
 @import url("../blocks/photo-grid/__item/photo-grid__item.css");
+@import url("../blocks/photo-grid/__image/photo-grid__image.css");
 /*PLACES*/
 @import url("../blocks/places/places.css");
 @import url("../blocks/page/__places/page__places.css");

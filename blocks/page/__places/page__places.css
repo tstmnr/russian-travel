@@ -1,5 +1,17 @@
 .page__places {
-    margin: 92px auto 0;
-    padding: 0 48px;
+  margin: 92px auto 0;
+  padding: 0 48px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .page__places {
+    padding: 0 24px;
   }
-  
+}
+
+@media screen and (max-width: 767px) {
+  .page__places {
+    padding: 0;
+  }
+}
+
