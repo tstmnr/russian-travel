@@ -3,7 +3,7 @@
 }
 
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 544px) {
   .place__website {
     align-self: stretch;
     padding-left: 16px;

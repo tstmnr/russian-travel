@@ -2,7 +2,7 @@
   width: 100%;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 544px) {
   .place__paragraphs {
     box-sizing: border-box;
     width: 100%;

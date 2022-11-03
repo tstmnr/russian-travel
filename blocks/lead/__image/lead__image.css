@@ -7,7 +7,7 @@
   object-position: center;
 }
 
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
+/*@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .lead__image {
     margin: 56px auto 0;
   }
@@ -20,6 +20,18 @@
 }
 
 @media screen and (max-width: 767px) {
+  .lead__image {
+    margin: 40px auto 0;
+  }
+}*/
+
+@media screen and (max-width: 1152px) {
+  .lead__image {
+    margin: 56px auto 0;
+  }
+}
+
+@media screen and (max-width: 544px) {
   .lead__image {
     margin: 40px auto 0;
   }
