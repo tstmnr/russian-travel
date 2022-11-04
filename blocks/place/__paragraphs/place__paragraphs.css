@@ -5,7 +5,6 @@
 @media screen and (max-width: 544px) {
   .place__paragraphs {
     box-sizing: border-box;
-    width: 100%;
     font-size: 32px;
     line-height: 35px;
     padding: 0 16px;
